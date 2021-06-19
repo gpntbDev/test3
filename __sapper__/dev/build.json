@@ -1,0 +1,24 @@
+{
+  "bundler": "webpack",
+  "shimport": null,
+  "assets": {
+    "admin": "04a600d2d011e7ffa5e2/admin.admin.js",
+    "admin~index": "04a600d2d011e7ffa5e2/admin~index.admin~index.js",
+    "admin~index~login~signin~signup": "04a600d2d011e7ffa5e2/admin~index~login~signin~signup.admin~index~login~signin~signup.js",
+    "blog": "04a600d2d011e7ffa5e2/blog.blog.js",
+    "blog_$slug": "04a600d2d011e7ffa5e2/blog_$slug.blog_$slug.js",
+    "index": "04a600d2d011e7ffa5e2/index.index.js",
+    "index~login~signin~signup": "04a600d2d011e7ffa5e2/index~login~signin~signup.index~login~signin~signup.js",
+    "login": "04a600d2d011e7ffa5e2/login.login.js",
+    "login~signin": "04a600d2d011e7ffa5e2/login~signin.login~signin.js",
+    "login~signin~signup": "04a600d2d011e7ffa5e2/login~signin~signup.login~signin~signup.js",
+    "main": "04a600d2d011e7ffa5e2/main.js",
+    "profile_$slug": "04a600d2d011e7ffa5e2/profile_$slug.profile_$slug.js",
+    "signin": "04a600d2d011e7ffa5e2/signin.signin.js",
+    "signup": "04a600d2d011e7ffa5e2/signup.signup.js",
+    "vendors~admin~signup": "04a600d2d011e7ffa5e2/vendors~admin~signup.vendors~admin~signup.js"
+  },
+  "css": {
+    "main": null
+  }
+}

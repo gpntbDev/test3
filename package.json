@@ -1,0 +1,42 @@
+{
+  "name": "auth",
+  "description": "auth",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "sapper dev",
+    "build": "sapper build",
+    "export": "sapper export",
+    "start": "node __sapper__/build"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.3",
+    "express-winston": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "ldapjs": "^2.2.3",
+    "mdbsvelte": "^1.0.12",
+    "mongodb": "^3.6.3",
+    "nodemailer": "^6.4.17",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "passport-orcid": "0.0.4",
+    "passport-vkontakte": "^0.5.0",
+    "winston": "^3.3.3",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "sapper": "^0.28.0",
+    "svelte": "^3.17.3",
+    "file-loader": "^6.0.0",
+    "svelte-loader": "^2.9.0",
+    "webpack": "^4.7.0",
+    "webpack-modules": "^1.0.0"
+  }
+}
