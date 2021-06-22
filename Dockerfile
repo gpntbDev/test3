@@ -2,25 +2,29 @@ FROM node:latest
 
 MAINTAINER Nikita DevOsp
 
-ENV PORT=3000
+ARG PORT=3000
+ENV PORT=$PORT
 
-ENV NODE_ENV=production
 
-ENV MONGO_URI=mongodb://sergeev:zSLW8VDsyj@mongodb.gpntbsib.ru:27017
+ARG NODE_ENV=production
+ENV NODE_ENV=$production
 
-ENV JWT_SECRET=1f8cad8320c20dcaf714b64a391fc41c3cd9757c536f68e0e7940e39aaf53d80
 
-ENV EMAIL_HOST=webproxy.gpntbsib.ru
+ARG MONGO_URI=mongodb://sergeev:zSLW8VDsyj@mongodb.gpntbsib.ru:27017
 
-ENV EMAIL_PORT=25
+ARG JWT_SECRET=1f8cad8320c20dcaf714b64a391fc41c3cd9757c536f68e0e7940e39aaf53d80
 
-ENV LDAP_URL=ldap://10.3.11.22:389
+ARG EMAIL_HOST=webproxy.gpntbsib.ru
 
-ENV LDAP_CLIENT_DN=cn=admin,dc=gpntbsib,dc=ru
+ARG EMAIL_PORT=25
 
-ENV LDAP_CLIENT_PASSWORD=123qwe123
+ARG LDAP_URL=ldap://10.3.11.22:389
 
-ENV GOOGLE_RECAPTCHA_SITE_KEY=6LeChqoaAAAAABXyFY8k_cGdj54y2dNEoXnI7KRm
+ARG LDAP_CLIENT_DN=cn=admin,dc=gpntbsib,dc=ru
+
+ARG LDAP_CLIENT_PASSWORD=123qwe123
+
+ARG GOOGLE_RECAPTCHA_SITE_KEY=6LeChqoaAAAAABXyFY8k_cGdj54y2dNEoXnI7KRm
 
 copy . /var/www
 
